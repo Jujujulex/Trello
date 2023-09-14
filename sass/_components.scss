@@ -11,11 +11,11 @@
   align-items: center;
   justify-content: center;
 
-  //     @media only screen and (max-width: $bp-smallest) {
-  //     flex: 0 0 100%;
-  //     order: 1;
-  //     margin-bottom: 1.2rem;
-  //   }
+  @media only screen and (max-width: $bp-smallest) {
+    flex: 0 0 100%;
+    order: 1;
+    margin-bottom: 1.2rem;
+  }
 
   &__input {
     font: inherit;
@@ -28,9 +28,9 @@
     transition: all 0.2s;
     margin-right: -3.25rem;
 
-    // @media only screen and (max-width: $bp-smallest) {
-    //   width: 95%;
-    // }
+    @media only screen and (max-width: $bp-smallest) {
+      width: 95%;
+    }
 
     &:focus {
       outline: none;
@@ -126,27 +126,27 @@
   list-style: none;
   margin-top: 3.5rem;
 
-  //      @media only screen and (max-width: $bp-medium) {
-  //     display: flex;
-  //     margin-top: 0;
-  //   }
+  @media only screen and (max-width: $bp-medium) {
+    display: flex;
+    margin-top: 0;
+  }
 
   &__item {
     position: relative;
 
-    // @media only screen and (max-width: $bp-medium) {
-    //   flex: 1;
+    @media only screen and (max-width: $bp-medium) {
+      flex: 1;
 
-    //   display: flex;
-    //   justify-content: center;
-    // }
+      display: flex;
+      justify-content: center;
+    }
 
     &:not(:last-child) {
       margin-bottom: 0.5rem;
 
-      //     @media only screen and (max-width: $bp-medium) {
-      //     margin-bottom: 0;
-      //   }
+      @media only screen and (max-width: $bp-medium) {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -186,14 +186,14 @@
     display: flex;
     align-items: center;
 
-    // @media only screen and (max-width: $bp-small) {
-    //   padding: 1.5rem;
+    @media only screen and (max-width: $bp-small) {
+      padding: 1.5rem;
 
-    //   display: flex;
-    //   flex-direction: column;
-    //   justify-content: center;
-    //   align-items: center;
-    // }
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
 
   &__icon {
@@ -202,9 +202,9 @@
     margin-right: 2rem;
     fill: currentColor;
 
-    // @media only screen and (max-width: $bp-small) {
-    //   margin-right: 0;
-    // }
+    @media only screen and (max-width: $bp-small) {
+      margin-right: 0;
+    }
   }
 }
 
@@ -213,9 +213,9 @@
   margin-inline: auto;
   margin-bottom: 2.4rem;
 
-  //      @media only screen and (max-width: $bp-medium) {
-  //     display: none;
-  //   }
+  @media only screen and (max-width: $bp-medium) {
+    display: none;
+  }
 }
 
 .gallery {
